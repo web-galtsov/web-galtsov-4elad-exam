@@ -105,9 +105,6 @@ export const ImgWrap = styled.div`
   max-width: 700px;
   height: 315px;
   text-align: center;padding: 40px 0;
-  
-  /*height: auto;
-  border: 2px #01BF71 double;*/
 `;
 
 export const Img = styled.img`

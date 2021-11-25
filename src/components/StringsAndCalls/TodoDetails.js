@@ -2,9 +2,6 @@ import React, { useEffect,useState } from "react";
 import {
     StringsAndCallsCard, StringsAndCallsWrapper
 } from './StringsAndCalls';
-//import TodoComponent from "./TodoComponent";
-//import {StringsAndCallsLi} from "./StringsAndCalls";
-
 
 function TodoDetails() {
     const [error, setError] = useState(null);
@@ -43,7 +40,6 @@ function TodoDetails() {
                   <StringsAndCallsCard>
                       <ul>
                           {customers.map(item => (
-
                              <li key={ item.id }>
                                  {item.title}
                              </li>
