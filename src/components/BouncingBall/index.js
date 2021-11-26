@@ -23,8 +23,6 @@ const BouncingBall = ({
                          dark2,
                          id,
                      }) => {
-    console.log(primary);
-
     const [isStartAnime, setIsStartAnime] = useState(false);
     const [reset, setReset] = useState(false);
 

@@ -40,10 +40,6 @@ export const BouncingBallContainer = styled.div`
     padding: 100px 0;
     height: auto;
   }
-  
- /* @media screen and (max-width: 480px) {
-    height: auto;
-  }*/
 `;
 export const ImgWrapB = styled.div`
   max-width: 700px;
@@ -54,5 +50,4 @@ export const ImgWrapB = styled.div`
   @media screen and (max-width: 768px) {
     height:auto;
   }
-  
 `;

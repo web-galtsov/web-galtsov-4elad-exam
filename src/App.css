@@ -573,10 +573,15 @@
     opacity: 0;
     border-radius: 50%;
   }
-
 }
-
-
+.styleFont {
+  background-color: rgb(1 191 113);
+  padding: 5px;
+  color: #000 !important;
+}
+.styleFont::marker {
+  color:rgb(1 191 113);
+}
 
 
 

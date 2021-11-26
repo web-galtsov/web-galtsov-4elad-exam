@@ -23,8 +23,6 @@ const FillThatBallElements = ({
                                   dark2,
                                   id,
                               }) => {
-    console.log(primary);
-
     const [jump, setJump] = useState(false);
     const [red, setRed] = useState(false);
     const [blue, setBlue] = useState(false);
